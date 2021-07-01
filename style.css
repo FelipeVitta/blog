@@ -22,6 +22,9 @@ ul{
     float: right;
 
 }
+img{
+    max-width: 100%;
+}
 
  a{
  color: white;
@@ -193,7 +196,7 @@ margin-top: 30px;
 
 /* Responsividade do site */
 
-@media screen and (max-width: 1700px){
+@media screen and (max-width: 1600px){
 
   #cont{
       display: block;
@@ -209,10 +212,20 @@ margin-top: 30px;
   }
 
   *{
-      margin: 20px 20px;
+      margin: 0;
   }
  .card img{
      display: none;
+ }
+ .work{
+     width: 98vw;
+    
+ }
+ iframe{
+     width: 100%;
+ }
+ .lipt{
+     border: none;
  }
 
 }
