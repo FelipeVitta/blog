@@ -190,9 +190,10 @@ margin-top: 30px;
 
 
 
+
 /* Responsividade do site */
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1700px){
 
   #cont{
       display: block;
@@ -210,6 +211,9 @@ margin-top: 30px;
   *{
       margin: 20px 20px;
   }
+ .card img{
+     display: none;
+ }
 
 }
 
